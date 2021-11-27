@@ -1,0 +1,4 @@
+python-transitions:
+  ubuntu:
+    apt:
+      packages: [python3-transitions]
