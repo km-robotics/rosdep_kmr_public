@@ -2,3 +2,7 @@ python-transitions:
   ubuntu:
     apt:
       packages: [python3-transitions]
+python3-wrapt:
+  ubuntu:
+    apt:
+      packages: [python3-wrapt]
