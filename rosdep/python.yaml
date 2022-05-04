@@ -6,3 +6,7 @@ python3-wrapt:
   ubuntu:
     apt:
       packages: [python3-wrapt]
+python3-socketio:
+  ubuntu:
+    apt:
+      packages: [python3-socketio]
