@@ -10,3 +10,7 @@ python3-socketio:
   ubuntu:
     apt:
       packages: [python3-socketio]
+python3-pymodbus:
+  ubuntu:
+    apt:
+      packages: [python3-pymodbus]
