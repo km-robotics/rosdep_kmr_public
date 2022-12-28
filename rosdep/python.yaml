@@ -22,3 +22,7 @@ python3-pyfunctional-pip:
   ubuntu:
     pip:
       packages: [pyfunctional]
+python3-pycomm3-pip:
+  ubuntu:
+    pip:
+      packages: [pycomm3]
