@@ -26,3 +26,7 @@ python3-pycomm3-pip:
   ubuntu:
     pip:
       packages: [pycomm3]
+python3-datadog-pip:
+  ubuntu:
+    pip:
+      packages: [datadog]
