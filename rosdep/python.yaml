@@ -30,7 +30,7 @@ python3-datadog-pip:
   ubuntu:
     pip:
       packages: [datadog]
-python3-json-logger:
+python3-json-logger-pip:
   ubuntu:
     pip:
       packages: [python-json-logger]
