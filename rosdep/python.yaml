@@ -34,3 +34,11 @@ python3-json-logger-pip:
   ubuntu:
     pip:
       packages: [python-json-logger]
+python3-safer-pip:
+  ubuntu:
+    pip:
+      packages: [safer]
+python3-watchdog-pip:
+  ubuntu:
+    pip:
+      packages: [watchdog]
