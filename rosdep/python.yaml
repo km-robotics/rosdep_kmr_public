@@ -42,3 +42,7 @@ python3-watchdog-pip:
   ubuntu:
     pip:
       packages: [watchdog]
+python3-flatten-dict-pip:
+  ubuntu:
+    pip:
+      packages: [flatten-dict]
