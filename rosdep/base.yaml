@@ -1,0 +1,4 @@
+lua54-dev:
+  ubuntu:
+    apt:
+      packages: [liblua5.4-dev]
