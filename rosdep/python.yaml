@@ -50,11 +50,11 @@ lua54-dev:
   ubuntu:
     apt:
       packages: [liblua5.4-dev]
-python3-xxhash-pip:
+python3-xxhash:
   ubuntu:
-    pip:
-      packages: [xxhash]
-python3-ipython-pip:
+    apt:
+      packages: [python3-xxhash]
+python3-ipython:
   ubuntu:
-    pip:
-      packages: [ipython]
+    apt:
+      packages: [python3-ipython]
