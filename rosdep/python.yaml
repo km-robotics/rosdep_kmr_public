@@ -58,3 +58,13 @@ python3-ipython-pip:
   ubuntu:
     pip:
       packages: [ipython]
+# pinned to the MuJoCo version of ros-jazzy-mujoco-vendor (C++ engine of robocon_mujoco reads the MJCF written by
+# the Python scene builder); rosdep checks only the package name => `rosdep check` always reports these as missing
+python3-mujoco-pip:
+  ubuntu:
+    pip:
+      packages: [mujoco==3.12.0]
+python3-mjviser-pip:
+  ubuntu:
+    pip:
+      packages: [mjviser==0.0.14]
